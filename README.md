@@ -1,5 +1,4 @@
-![logo](https://github.com/TiagoDongo/Personal_Projects/assets/linksharing.samsungcloud.com/cCRWb0Xcq4Ic)
-
+![logo](/Armazenamento Interno/Pictures/LogoMaker/sex._21_06_2024_12_07_54.png)
 
 ## Personal_Projects
 
