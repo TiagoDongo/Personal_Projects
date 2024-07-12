@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body{
+    margin: 0;
+    padding: 20px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.main-login{
+    width: 100vw;
+    height: 100vh;
+    background: #171717;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-login{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.left-login > h1{
+    font-size: 3vw;
+    color: #77ffc0;
+}
+
+.left-login-image{
+    width: 35vw;
+}
+
+.roght-login{
+    width: 50vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-login{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background:#77ffc0;
+    border-radius: 18px;
+    box-shadow: 0px 10px 40px #1111111c;
+}
+
+.card-login > h1{
+    color: #fff;
+    font-weight: 800;
+    margin: 0;
+}
+
+.textfield{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 0px;
+}
+
+.textfield > input{
+    width: 100%;
+    border: none;
+    border-radius: 14px;
+    padding: 15px;
+    background: #57e4a2;
+    color: #000000;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #1111111c;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.textfield >label{
+    width: 100%;
+    color: #fff;
+    margin-bottom: 10px;
+    font-weight: 540;
+}
+
+.textfield > input::placeholder{
+    color: #181414;
+}
+
+.btn-login{
+    width: 100%;
+    padding: 16px 0px;
+    margin: 25px;
+    border-radius: 12px;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 2.5px;
+    color: #77ffc0;
+    background: #171717;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #1111111c;
+}
+
