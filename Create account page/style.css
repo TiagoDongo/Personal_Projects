@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background: #171717;
+    padding: 0px;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: fadeInAnimation ease 2s;
+}
+
+.create-account{
+    width: 100%;
+    height: 100%;
+    background: #171717;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left{
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.left > h1{
+    font-size: 3vw;
+    color: rgb(119, 255, 192);
+}
+
+.imagem{
+    width: 35vw;
+}
+
+.right{
+    width: 50vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.account{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 40px;
+    background:#77ffc0;
+    border-radius: 16px;
+    box-shadow: 0px 10px 40px #1111111c;
+}
+
+.account > h1{
+    color: #fff;
+    font-weight: 800;
+    margin: 0;
+}
+
+.textfield{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 4.5px 0px;
+    width: 100%;
+}
+
+.textfield > input{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 8px;
+    background: #77ffc0;
+    color: #000000;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #1111111c;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.textfield >label{
+    width: 100%;
+    color: #fff;
+    margin-bottom: 8px;
+    font-weight: 580;
+}
+
+.textfield > input::placeholder{
+    color: #181414;
+}
+
+/*
+.textfield select {
+    width: calc(95% - 30px);
+    border: none;
+    border-radius: 10px;
+    padding: 8px;
+    background: #57e4a2;
+    color: #000000;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #1111111c;
+    outline: none;
+    box-sizing: border-box;
+    margin-top: 10px;
+}*/
+
+.gender-field {
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.gender-field label {
+    margin-right: 10px;
+    margin-bottom: 0;
+}
+
+.gender{
+    border: none;
+    border-radius: 6px;
+    align-items: center;
+    font-size: 11pt;
+    background: #171717;
+    color: #77ffc0;
+    margin: 0px;
+    padding: 3px 0px;
+    margin-top: 8px;
+}
+
+.textfield.terms {
+    margin-top: 10px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.textfield.terms > input {
+    width: auto;
+    margin-right: 10px;
+    margin-top: -3px;
+}
+
+.submit{
+    width: 100%;
+    padding: 10px 0px;
+    margin: 0px;
+    border-radius: 12px;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 2.5px;
+    color: #77ffc0;
+    background: #171717;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #1111111c;
+    box-sizing: border-box;
+    margin-bottom: -10px;
+}
