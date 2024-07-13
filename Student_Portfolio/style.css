@@ -301,6 +301,19 @@ footer .socials{
     gap: 12px;
 }
 
+footer .socials a i {
+    font-size: 20px; /* Aumenta o tamanho do ícone */
+}
+
+
+.socials i{
+    align-items: center;
+    padding: 10px;
+    justify-content: center;
+}
+
+
+
 footer .online {
     display: flex;
     align-items: center;
@@ -315,8 +328,10 @@ footer .online {
 
 footer .online i {
     color: #7056e4;
-    font-size: 9px;
+    font-size: 30px;
 }
+
+
 
 @keyframes fadeInAnimation{
     0%{
@@ -380,9 +395,9 @@ footer .online i {
         margin-top: 20px;
     }
 
-    footer a.online {
+    /*footer a.online {
         display: none;
-    }
+    }*/
 }
 
 @media screen and (max-width: 576px) {
