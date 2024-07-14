@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+    background: #171717;
+}
+
+.login{
+    width: 100vw;
+    height: 100vh;
+    background: #171717;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-login{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.left-login h1{
+    font-size: 3.5vw;
+    color: #00ffff;
+}
+
+.left-login img{
+    width: 35vw;
+}
+
+.right-login{
+    width: 50vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-login form{
+    width: 50vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 20px;
+    background-color: #00ffff;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-login h1{
+    color: #171717;
+    letter-spacing: 0.3px;
+    margin: 0;
+    font-weight: 800;
+}
+
+.right-login .social-icons{
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.right-login .social-icons a {
+    border: 1px solid #9b8d8d;
+    border-radius: 20%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 3px;
+    width: 40px;
+    height: 40px;
+}
+
+.right-login span{
+    font-size: 13px;
+}
+
+.right-login input{
+    background-color: #eee;
+    border: none;
+    margin: 8px 0;
+    padding: 10px 15px;
+    font-size: 13px;
+    border-radius: 8px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.right-login a{
+    font-size: 13px;
+    margin: 15px 0 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+.right-login button{
+    background-color: #171717;
+    color: #eee;
+    font-size: 12px;
+    padding: 10px 45px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 10px;
+    letter-spacing: 0.5px;
+}
